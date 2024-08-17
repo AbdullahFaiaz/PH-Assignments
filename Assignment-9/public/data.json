@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "estate_title": "Sunnyvale Single-Family Home",
+    "segment_name": "Single-family home",
+    "description": "A beautiful 4-bedroom, 3-bathroom home located in the heart of Sunnyvale. Features include a spacious backyard, two-car garage, and modern kitchen.",
+    "price": 950000,
+    "status": "sale",
+    "area": "2500 sq ft",
+    "location": "Sunnyvale, CA",
+    "facilities": ["living room", "garage", "modern kitchen", "backyard"],
+    "image": "https://i.ibb.co/GMhr3th/1.jpg"
+  },
+  {
+    "id": 2,
+    "estate_title": "Downtown Apartment",
+    "segment_name": "Apartment",
+    "description": "A stylish 2-bedroom apartment located in downtown. Comes with an open floor plan, in-unit laundry, and a balcony with city views.",
+    "price": 3200,
+    "status": "rent",
+    "area": "1200 sq ft",
+    "location": "Downtown, NY",
+    "facilities": ["living room", "balcony", "in-unit laundry"],
+    "image": "https://i.ibb.co/NCNjdNs/2.jpg"
+  },
+  {
+    "id": 3,
+    "estate_title": "Townhouse in Greenfield",
+    "segment_name": "Townhouse",
+    "description": "A modern 3-bedroom, 2.5-bathroom townhouse located in Greenfield. Offers a private garden, garage, and communal pool.",
+    "price": 550000,
+    "status": "sale",
+    "area": "1800 sq ft",
+    "location": "Greenfield, MA",
+    "facilities": ["living room", "private garden", "garage", "communal pool"],
+    "image": "https://i.ibb.co/bNHYGHh/3.jpg"
+  },
+  {
+    "id": 4,
+    "estate_title": "University Student Housing",
+    "segment_name": "Student housing",
+    "description": "Affordable and modern student housing near the university. Features communal areas, study rooms, and laundry facilities.",
+    "price": 1500,
+    "status": "rent",
+    "area": "800 sq ft",
+    "location": "University Campus, TX",
+    "facilities": [
+      "living room",
+      "communal areas",
+      "study rooms",
+      "laundry facilities"
+    ],
+    "image": "https://i.ibb.co/Mg4YT14/4.jpg"
+  },
+  {
+    "id": 5,
+    "estate_title": "Seaside Vacation Rental",
+    "segment_name": "Vacation rental",
+    "description": "Charming beachfront vacation rental with breathtaking ocean views. Offers a spacious deck, outdoor grill, and fully equipped kitchen.",
+    "price": 400,
+    "status": "rent",
+    "area": "1500 sq ft",
+    "location": "Seaside, FL",
+    "facilities": [
+      "living room",
+      "spacious deck",
+      "outdoor grill",
+      "fully equipped kitchen"
+    ],
+    "image": "https://i.ibb.co/F6CwZ6x/5.jpg"
+  },
+  {
+    "id": 6,
+    "estate_title": "Senior Living Community Apartment",
+    "segment_name": "Senior living community",
+    "description": "Comfortable 2-bedroom apartment in a senior living community. Includes amenities such as a fitness center, library, and on-site healthcare.",
+    "price": 350000,
+    "status": "sale",
+    "area": "1200 sq ft",
+    "location": "Retirement Village, AZ",
+    "facilities": [
+      "living room",
+      "fitness center",
+      "library",
+      "on-site healthcare"
+    ],
+    "image": "https://i.ibb.co/Z63x1FP/6.jpg"
+  }
+]

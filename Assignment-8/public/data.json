@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "bookName": "The Economics of Slavery",
+    "author": "Alfred H. Conrad",
+    "image": "https://i.ibb.co/pdKMLgJ/One.png",
+    "review": "A thought-provoking analysis of the economic underpinnings of historical slavery, offering insights into its enduring impact on societies.",
+    "totalPages": 320,
+    "rating": 4.5,
+    "category": "History",
+    "tags": ["History", "Economics"],
+    "publisher": "Celadon Books",
+    "yearOfPublishing": 2023
+  },
+  {
+    "id": 2,
+    "bookName": "Managing Beyond The Ordinary",
+    "author": "Charles H. Kepner",
+    "image": "https://i.ibb.co/K2QPxnz/Two.png",
+    "review": "A practical guide for managers, offering innovative strategies to navigate complex business challenges and achieve extraordinary results.",
+    "totalPages": 212,
+    "rating": 4.2,
+    "category": "Business",
+    "tags": ["Business", "Management"],
+    "publisher": "St. Martin's Press",
+    "yearOfPublishing": 2020
+  },
+  {
+    "id": 3,
+    "bookName": "The Electronic Republic?",
+    "author": "Phillip J. Vax Fossen",
+    "image": "https://i.ibb.co/3Y3BRSm/Three.png",
+    "review": "An insightful exploration of the impact of technology on modern democracy, raising crucial questions about governance and citizenship.",
+    "totalPages": 290,
+    "rating": 4.4,
+    "category": "Technology",
+    "tags": ["Technology", "Politics"],
+    "publisher": "William Morrow",
+    "yearOfPublishing": 2010
+  },
+  {
+    "id": 4,
+    "bookName": "The Rise of the Meritocracy",
+    "author": "Michael Young",
+    "image": "https://i.ibb.co/6DCVC38/Four.png",
+    "review": "A thought-provoking critique of meritocratic societies, questioning the fairness and consequences of a system based solely on talent and achievement.",
+    "totalPages": 352,
+    "rating": 4.0,
+    "category": "History",
+    "tags": ["History", "Sociology"],
+    "publisher": "Gallery/Scout Press",
+    "yearOfPublishing": 2016
+  },
+  {
+    "id": 5,
+    "bookName": "Getting Choice Right ",
+    "author": "Julian R. Betts",
+    "image": "https://i.ibb.co/cwbpctw/Five.png",
+    "review": "An insightful examination of decision-making processes, offering valuable insights for individuals and policymakers alike.",
+    "totalPages": 122,
+    "rating": 4.3,
+    "category": "Business",
+    "tags": ["Business", "Decision Making"],
+    "publisher": "St. Martin's Press",
+    "yearOfPublishing": 2018
+  },
+  {
+    "id": 6,
+    "bookName": "Hard Air",
+    "author": "W. Scott Olsen",
+    "image": "https://i.ibb.co/10mNGFR/Six.png",
+    "review": "A gripping exploration of the human psyche, delving into the complexities of memory and identity amidst a backdrop of suspense.",
+    "totalPages": 368,
+    "rating": 4.1,
+    "category": "Technology",
+    "tags": ["Psychology", "Suspense"],
+    "publisher": "HarperCollins",
+    "yearOfPublishing": 2011
+  }
+]

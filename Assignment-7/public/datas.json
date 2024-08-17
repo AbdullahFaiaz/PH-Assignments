@@ -1,0 +1,57 @@
+[
+    {
+      "recipe_id": 1,
+      "recipe_name": "Spaghetti Carbonara",
+      "recipe_image": "https://i.ibb.co/rbZwNsJ/Spaghetti-Carbonara.jpg",
+      "short_description": "Classic Italian pasta dish with bacon, eggs, and cheese.",
+      "ingredients": ["400 g spaghetti", "200 g bacon", "3 eggs", "100 g grated Parmesan cheese"],
+      "preparing_time": 20,
+      "calories": 450
+    },
+    {
+      "recipe_id": 2,
+      "recipe_name": "Mushroom Risotto",
+      "recipe_image": "https://i.ibb.co/mb7qcVn/Mushroom-Risotto.jpg",
+      "short_description": "Creamy and rich risotto cooked with mushrooms and Arborio rice.",
+      "ingredients": ["300 g Arborio rice", "200 g mushrooms", "1 onion", "1 liter vegetable broth"],
+      "preparing_time": 35,
+      "calories": 380
+    },
+    {
+      "recipe_id": 3,
+      "recipe_name": "Banana Bread",
+      "recipe_image": "https://i.ibb.co/RNSkX9M/Banana-Bread.jpg",
+      "short_description": "Homemade banana bread with a moist and fluffy texture.",
+      "ingredients": ["3 ripe bananas", "200 g all-purpose flour", "2 eggs", "100 g sugar", "1 tsp baking powder"],
+      "preparing_time": 60,
+      "calories": 220
+    },
+    {
+      "recipe_id": 4,
+      "recipe_name": "Chicken Stir-Fry",
+      "recipe_image": "https://i.ibb.co/WfvD9by/Chicken-Stir-Fry.jpg",
+      "short_description": "A delicious and healthy chicken stir-fry with vegetables.",
+      "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaves", "400 g mushroom"],
+      "preparing_time": 30,
+      "calories": 320
+    },
+    {
+      "recipe_id": 5,
+      "recipe_name": "Vegetable Curry",
+      "recipe_image": "https://i.ibb.co/rM5kpmY/Vegetable-Curry.jpg",
+      "short_description": "A flavorful vegetarian curry packed with vegetables and spices.",
+      "ingredients": ["300 g mixed vegetables", "400 ml coconut milk", "2 cloves garlic", "1 tbsp curry powder"],
+      "preparing_time": 45,
+      "calories": 280
+    },
+    {
+      "recipe_id": 6,
+      "recipe_name": "Grilled Salmon",
+      "recipe_image": "https://i.ibb.co/sj7T9nG/Grilled-Salmon.jpg",
+      "short_description": "Tender grilled salmon fillets seasoned with herbs and lemon.",
+      "ingredients": ["4 salmon fillets", "2 tbsp olive oil", "1 lemon", "1 tsp dried dill"],
+      "preparing_time": 15,
+      "calories": 320
+    }
+  ]
+  

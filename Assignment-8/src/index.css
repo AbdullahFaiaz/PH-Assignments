@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.active button{
+  @apply hover:bg-green-400 border-2 border-solid border-green-400
+}

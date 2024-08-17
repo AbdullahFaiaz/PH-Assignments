@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReTro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="mulish-normal">
+    <header class="w-[90%] m-auto">
+        <!-- Nav bar -->
+        <section class="my-[1vw]">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown lg:hidden">
+                    <div tabindex="0" role="button" class="px-0 mx-[1vw] btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-[4vw] w-[4vw]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><span><img src="images/home.png" alt="home">Home</span></li>
+                        <li><span><img src="images/pen.png" alt="pen">Customize</span></li>
+                        <li><span><img src="images/add.png" alt="add">Add</span></li>
+                        <li><span><img src="images/flag.png" alt="flag">Country</span></li>
+                    </ul>
+                  </div>
+                    <span><img class="h-[6vw]" src="images/logo.png" alt="logo"></span>
+                </div>
+                <div class="w-[30%] ml-auto hidden lg:flex">
+                  <ul class="flex gap-[1vw] mr-[2vw] justify-end w-full">
+                    <li class="tooltip" data-tip="Home"><span class="bg-[#f0f0f2] border-solid border-[#DEDFE2] border-2 p-[1vw] flex justify-center items-center rounded-full"><img src="images/home.png" alt="home"></span></li>
+                    <li class="tooltip" data-tip="Customize"><span class="bg-[#f0f0f2] border-solid border-[#DEDFE2] border-2 p-[.8vw] flex justify-center items-center rounded-full"><img src="images/pen.png" alt="home"></span></li>
+                    <li class="tooltip" data-tip="Add"><span class="bg-[#f0f0f2] border-solid border-[#DEDFE2] border-2 p-[1vw] flex justify-center items-center rounded-full"><img src="images/add.png" alt="home"></span></li>
+                    <li class="tooltip" data-tip="Country"><span class="bg-[#f0f0f2] border-solid border-[#DEDFE2] border-2 p-[1vw] flex justify-center items-center rounded-full"><img src="images/flag.png" alt="home"></span></li>
+                  </ul>
+                </div>
+                <div class="flex justify-end flex-1 lg:flex-none">
+                  <button id="Sign" class="bg-[#797DFC] rounded-[15vw] text-white font-bold w-[15vw] h-[5vw] text-[2.1vw] px-[2.5vw]">Sign In</button>
+                </div>
+              </div>
+        </section>
+        <!-- Banner -->
+        <section>
+                <div class="relative h-[68vw] sm:h-[40vw] rounded-[3vw] bg-[linear-gradient(to_bottom,#12132D,#12132D)] bg-cover bg-center bg-no-repeat box-border">
+                <img class="w-full h-full" src="images/bgbanner.png" alt="banner">
+
+                <div class="h-full w-full absolute transform -translate-y-1/2 translate-x-1/2 right-1/2 top-1/2">
+                    <!-- inside contents of banner -->
+                    <div class="flex h-full w-full box-border">
+                        <!-- left -->
+                        <div class="w-[60%] box-border p-[6vw]">
+                            <div>
+                                <p class="text-[6vw] sm:text-[5vw] mulish-extrabold text-white">Welcome to the <br class="hidden sm:flex"><span class="text-gradient">ReTro</span> Forum</p>
+                            </div>
+                            <div class="w-[85%]">
+                                <p class="text-[#ffffffcc] text-[2.1vw] sm:text-[1.6vw]">Where curiosity meets content, and each click unveils a universe of insightful narratives</p>
+                            </div>
+                            <div class="flex mt-[2vw] flex-col relative">
+                                <input id="search" placeholder="Search here anything" class="rounded-[40px] text-[3vw] sm:text-[1.6vw] bg-white w-[100%] sm:w-[80%] box-border p-[2vw] sm:p-[1vw]">
+                                <button onclick="searchCat()" class="rounded-[40px] text-[3vw] sm:text-[1.6vw] sm:absolute mt-[.5vw] sm:mr-[9vw] right-0 hover:bg-[#333563] text-white font-bold flex items-center justify-center sm:py-[.5vw] py-[1.5vw] sm:flex-none sm:px-[1.5vw] bg-[#797DFC]">Search</button>
+                                
+                            </div>
+                        </div>
+                        <!-- right -->
+                        <div class="text-[#12132dcc] text-[3vw] sm:text-[1.6vw] box-border w-[40%] sm:p-[6vw] flex flex-col justify-center items-center">
+                            <div class="bg-white rounded-[2vw] sm:h-[21vw] h-[35vw] w-[30vw] sm:w-[26vw]">
+                                <div class="h-full w-full p-[3.5vw] box-border">
+                                    <div class="flex mt-[1.1vw] justify-between items-center mulish-medium">
+                                        <div>Registered Users</div><div>01</div>
+                                    </div>
+                                    <div class="flex mt-[1.1vw] justify-between mulish-medium">
+                                        <div>Forum</div><div>05</div>
+                                    </div>
+                                    <div class="flex mt-[1.1vw] justify-between mulish-medium">
+                                        <div>Topics</div><div>01</div>
+                                    </div>
+                                    <div class="flex mt-[1.1vw] justify-between mulish-medium">
+                                        <div>Replies</div><div>01</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+    </header>
+
+
+
+    <main class="w-[90%] m-auto">
+        <!-- let's discuss section heading -->
+        <section class="my-[2vw]">
+            <div class="flex flex-col gap-[2vw] justify-center text-center items-center">
+                <h1 class="mulish-extrabold text-[5vw] sm:text-[3vw]">Let's Discuss</h1>
+                <p class="w-[90%] sm:w-[60%] text-[3vw] sm:text-[1.5vw]">Delve into diverse realms as various authors weave a tapestry of insights and perspectives, creating a rich and captivating exploration of topics in this eclectic and informative blog.</p>
+            </div>
+        </section>
+        <div id="searchSpin" class="hidden h-[8vw] justify-center items-center">
+            <span class="loading loading-bars loading-xs"></span>
+            <span class="loading loading-bars loading-sm"></span>     
+            <span class="loading loading-bars loading-md"></span>
+            <span class="loading loading-bars loading-lg"></span>
+            <span class="loading loading-bars loading-lg"></span>
+            <span class="loading loading-bars loading-lg"></span>
+    
+        </div>
+        <!-- let's discuss section body -->
+        <section class="lg:flex lg:flex-row gap-5">
+
+        <!-- left card container -->
+            <div id="postParent" class="lg:w-[60%] flex flex-col justify-center items-center">
+                                <!-- card -->
+                                <div class="h-[20vw] flex justify-center items-center">
+                                    <span class="loading loading-bars loading-xs"></span>
+                                    <span class="loading loading-bars loading-sm"></span>     
+                                    <span class="loading loading-bars loading-md"></span>
+                                    <span class="loading loading-bars loading-lg"></span>
+                                    <span class="loading loading-bars loading-lg"></span>
+                                    <span class="loading loading-bars loading-lg"></span>
+                            
+                                </div>
+            </div>
+
+        <!-- right -->
+        <div class="lg:w-[36%] box-border">
+            <div id="read" class="bg-[#12132d0d] flex-col gap-2 justify-center items-center p-4 rounded-3xl">
+                <div class="flex justify-between">
+                    <h1 class="font-extrabold text-[20px]">Title</h1>
+                    <p class="flex items-center gap-1"><span><img src="images/tick.png" alt="tick mark"></span><span>Mark as read </span> <span id="msg-count">(0)</span></p>
+                </div>
+                
+                <div id="readSpin" class="flex h-[20vw] justify-center items-center">
+                    <span class="loading loading-bars loading-xs"></span>
+                    <span class="loading loading-bars loading-sm"></span>     
+                    <span class="loading loading-bars loading-md"></span>
+                    <span class="loading loading-bars loading-lg"></span>
+                    <span class="loading loading-bars loading-lg"></span>
+                    <span class="loading loading-bars loading-lg"></span>
+            
+                </div>
+
+                <!-- <div class="w-full bg-white flex items-center justify-between p-2.5 rounded-xl">
+                    <div class="w-[80%]">
+                        <h1 class="font-extrabold text-[15px]">Headline</h1>
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-3">
+                            <span><img class="h-3 w-4" src="images/view.png" alt="star"></span> 
+                            <p>5</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>    
+        
+        </section>
+
+
+
+        <!-- join our forum -->
+        <section class="h-[85vw] sm:h-[35vw] rounded-[3vw] bg-[#12132D] mt-[5vw] sm:mt-[2.5vw] bg-cover bg-center bg-no-repeat box-border">
+            <div class="flex gap-16 flex-col items-center justify-center sm:items-end sm:flex-row h-full w-full">
+                <!-- left -->
+                <div class="h-[20vw] my-auto sm:w-[64%] box-border">
+                    <div class="mx-[5vw] sm:ml-[5vw] flex flex-col gap-[3vw]">
+                        <h1 class="text-[6vw] sm:text-[3vw] mulish-extrabold text-white">Join Our Forum</h1>
+                        <p class="text-[#ffffffcc] text-[3vw] sm:text-[1.6vw]">Share your opinion in this forum and let others see from your perspective. Delve into diverse realms discus a tapestry of insights and perspectives.</p>
+                        <button class="mx-[3vw] rounded-[40px] flex-1 sm:flex-none text-[3vw] sm:text-[1.6vw] hover:bg-[#333563] text-white font-bold flex items-center sm:w-[20vw] justify-center py-[3vw] sm:py-[.6vw] px-[1.5vw] bg-[#797DFC]">Register Now</button>
+                    </div>
+                </div>
+                <!-- right -->
+                <div class="flex flex-col justify-end sm:w-[36%]">
+                    <img class="mx-[2vw] h-[29vw] border-dashed border-gray-500 border-2" src="images/joinforum.png" alt="join forum">
+                </div>
+            </div>
+        </section>
+
+            <!-- Latest Post section heading -->
+            <section class="my-[2vw] mb-[3vw]">
+                <div class="flex flex-col gap-[2vw] justify-center text-center items-center">
+                    <h1 class="mulish-extrabold text-[5vw] sm:text-[3vw]">Latest Posts</h1>
+                    <p class="w-[90%] sm:w-[60%] text-[3vw] sm:text-[1.5vw]">Discover the latest posts here and always keep yourself up to date about different topics and know things from different perspectives.</p>
+                </div>
+            </section>
+            <!-- latest post body -->
+            <section id="latest" class="flex flex-col lg:flex-row justify-center lg:justify-around gap-4 items-center">
+                <!-- <div class="card w-80 sm:w-90 lg:w-80 bg-base-100 border-2 border-solid border-gray-300">
+                    <figure class="px-[1vw] pt-[1vw]">
+                        <img src="images/gray.png" alt="Image" class="rounded-xl" />
+                      </figure>
+                      <div class="card-body p-[1vw] items-left gap-3 text-left">
+                          <div class="flex items-center gap-1">
+                              <span class=""><img src="images/calendar.png" alt=""></span>
+                              <p>No Publish Date</p>
+                          </div>
+  
+                        <h2 class="card-title text-[18px] md:text-[20px]">What will a mars habitat force that impact in our daily life!!!</h2>
+                        <p>Yes, you can run unit tests and view the results directly within the app.</p>
+                        <div class="card-actions">
+                          <div class="flex items-center gap-10">
+                              <div class="avatar">
+                                  <div class="w-15 rounded-full">
+                                      <img class="bg-gray-700" src="images/avatar.png" alt="image"/>
+                                  </div>
+                              </div>
+                              <div>
+                                  <div class="font-extrabold">Name</div>
+                                  <div>Unknown</div>
+                              </div>
+                          </div>
+  
+                        </div>
+                      </div>
+                  </div>
+
+
+
+
+               <div class="card w-80 sm:w-90 lg:w-80 bg-base-100 border-2 border-solid border-gray-300">
+                    <figure class="px-[1vw] pt-[1vw]">
+                      <img src="images/gray.png" alt="Image" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body p-[1vw] items-left gap-3 text-left">
+                        <div class="flex items-center gap-1">
+                            <span class=""><img src="images/calendar.png" alt=""></span>
+                            <p>No Publish Date</p>
+                        </div>
+
+                      <h2 class="card-title text-[18px] md:text-[20px]">What will a mars habitat force that impact in our daily life!!!</h2>
+                      <p>Yes, you can run unit tests and view the results directly within the app.</p>
+                      <div class="card-actions">
+                        <div class="flex items-center gap-10">
+                            <div class="avatar">
+                                <div class="w-15 rounded-full">
+                                    <img class="bg-gray-700" src="images/avatar.png" alt="image"/>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="font-extrabold">Name</div>
+                                <div>Unknown</div>
+                            </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+               <div class="card w-80 sm:w-90 lg:w-80 bg-base-100 border-2 border-solid border-gray-300">
+                    <figure class="px-[1vw] pt-[1vw]">
+                      <img src="images/gray.png" alt="Image" class="rounded-xl" />
+                    </figure>
+                    <div class="card-body p-[1vw] items-left gap-3 text-left">
+                        <div class="flex items-center gap-1">
+                            <span class=""><img src="images/calendar.png" alt=""></span>
+                            <p>No Publish Date</p>
+                        </div>
+
+                      <h2 class="card-title text-[18px] md:text-[20px]">What will a mars habitat force that impact in our daily life!!!</h2>
+                      <p>Yes, you can run unit tests and view the results directly within the app.</p>
+                      <div class="card-actions">
+                        <div class="flex items-center gap-10">
+                            <div class="avatar">
+                                <div class="w-15 rounded-full">
+                                    <img class="bg-gray-700" src="images/avatar.png" alt="image"/>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="font-extrabold">Name</div>
+                                <div>Unknown</div>
+                            </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div> -->
+
+            </section>
+    </main>
+
+
+    <footer class="mt-[4vw] footer gap-[2vw] footer-center p-[4vw] sm:p-[5vw] bg-base-200 text-[4vw] sm:text-[1.8vw] rounded">
+        <nav class="grid grid-cols-1 gap-[2vw]">
+            <img class="h-[3vw] sm:h-[2vw]" src="images/ReTro.png" alt="retro">
+            <p class="text-[3vw] sm:text-[1.5vw] w-[70%] sm:[60%]">Embark on a journey of knowledge and inspiration with us - where every line is a step towards a world of ideas and discovery.</p>
+        </nav> 
+        <nav class="w-full">
+            <div class="grid grid-flow-col gap-4">
+                <div><img class="h-[3vw] sm:h-[1.8vw] hover:scale-125" src="images/twitter.png" alt="icon"></div>
+                <div><img class="h-[3vw] sm:h-[1.8vw] hover:scale-125" src="images/fb.png" alt="icon"></div>
+                <div><img class="h-[3vw] sm:h-[1.8vw] hover:scale-125" src="images/instagram.png" alt="icon"></div>
+                <div><img class="h-[3vw] sm:h-[1.8vw] hover:scale-125" src="images/github.png" alt="icon"></div>
+            </div>
+            <div class="w-full h-full"><hr class="mt-[3vw] border-gray-300"></div>
+        </nav> 
+        <aside>
+            <p class="text-[3vw] sm:text-[1.5vw]">Copyright © 2024 - All right reserved ReTro</p>
+        </aside>
+    </footer>
+
+    
+    <script src="utility.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

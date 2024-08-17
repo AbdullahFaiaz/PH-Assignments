@@ -1,0 +1,833 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+/* -----------------------------------Header Starts------------------------ */
+.header{
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+/* nav-container */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* site-logo-name */
+.site-logo-name{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.site-logo{
+    width: 48px;
+    height: 56px;
+}
+.site-name{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+.span-heaven{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+}
+/* nav-options-container */
+
+.nav-options{
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: padding 0.3s ease-in-out 0s;
+}
+.nav-options:hover{
+    background-color: #145364;
+    border-radius: 3px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: white;
+}
+.nav-options-home{
+    color: #FF5400;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+}
+/* hamburger */
+.hamburger{
+    display: none;
+}
+
+/* banner container */
+.banner-container{
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group13.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding-bottom: 1px;
+}
+.banner-texts-container h1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 60px;
+    font-weight: 800;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    padding-top: 106px;
+}
+.banner-texts-container> p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+.banner-input-container{
+    display: flex;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-bottom: 106px;
+}
+.white-inputs{
+    border-radius: 8px;
+    background: #FFF;
+    width: 20%;
+    height: 52px;
+    border: none;
+}
+.icon-inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.where-go-input{
+    text-align: start;
+}
+.orange-input{
+    background: #FF5400;
+    justify-content: center;
+    color: #FFF;
+    gap: 0.5rem;
+}
+
+/* -----------------------------------Header Ends------------------------ */
+
+
+main{
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+/* ----------------------------Popular section starts---------------------------- */
+.popular-section{
+    display: flex;
+    gap: 5%;
+    margin-top: 10%;
+}
+.popular-section .text-div{
+    width: 55%;
+}
+.popular-section .text-div h1{
+    margin-top: 0;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-section .text-div .first-para{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.popular-section .text-div ul{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.popular-section .text-div .second-para{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.popular-section .text-div .read-more-btn{
+    color: #FFF;
+    width: 174px;
+    height: 52px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background-color: #FF5400;
+    border: 0;
+}
+
+.popular-section .image-div{
+    width: 40%;
+}
+.popular-section .image-div>img{
+    width: 100%;
+    height: 100%;
+}
+/* ----------------------------Popular section ends---------------------------- */
+
+/* ----------------------------Destination section starts------------------------- */
+
+.destination-section .text-div h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 10%;
+}
+.destination-section .text-div p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+}
+/* grid */
+.image-grid-div{
+    display: grid;
+    grid-template-columns: repeat(24, 1fr) ;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2%;
+}
+.cell-1{
+    grid-column: 1/13;
+    grid-row: 1;
+}
+.cell-2{
+    grid-column: 13/25;
+    grid-row: 1;
+}
+.cell-3{
+    grid-column: 1/8;
+    grid-row: 2;
+}
+.cell-4{
+    grid-column: 8/19;
+    grid-row: 2;
+}
+.cell-5{
+    grid-column: 19/25;
+    grid-row: 2;
+}
+.cell-6{
+    grid-column: 1/16;
+    grid-row: 3;
+}
+.cell-7{
+    grid-column: 16/25;
+    grid-row: 3;
+}
+
+
+
+
+
+.all-cells{
+    position: relative;
+    border-radius: 16px;
+    height: 300px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+.all-cells img{
+    height: 100%;
+    width: 100%;
+
+
+}
+.all-cells h4{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+/* ----------------------------Destination section ends------------------------- */
+
+
+
+/* ----------------------------Why Choose Us section starts------------------------- */
+
+.why-choose-us-section{
+    margin-top: 10%;
+}
+.why-choose-us-section .text-div h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.why-choose-us-section .text-div p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 50%;
+    margin: 1% auto;
+    margin-bottom: 5%;
+}
+
+
+/* cards */
+.why-choose-us-section .card-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
+}
+.why-choose-us-section .card-div .common{
+    width: calc(50% - 8%);
+    padding: 3%;
+}
+.why-choose-us-section .card-div .common h2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.why-choose-us-section .card-div .common p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+.why-choose-us-section .card-div .card-1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.why-choose-us-section .card-div .card-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.why-choose-us-section .card-div .card-3{
+    margin-top: 2%;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+/* ----------------------------Why Choose Us section ends------------------------- */
+
+/*-------------------------- Extra Section starts-------------- */
+
+.agencies{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+    background: #FFF4E7;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.agencies img{
+    height: 100px;
+    transition: transform 0.3s ease-in-out 0s;
+}
+.agencies img:hover{
+    transform: scale(1.4);
+}
+
+
+
+
+
+
+.extra-section .card-div-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.extra-section .text-div h5{
+    color: #DF6951;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.extra-section .text-div h1{
+    color: #181E4B;
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.card-div-container .card-div{
+    width: 160px;
+    height: 314px;
+    border-radius: 36px;
+    background: #FFF;
+    box-shadow: 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+    border-radius: 10px 10px 10px 0px ;
+    padding: 2%;
+    box-shadow: 5px 10px 10px gray;
+    transition: transform 0.3s ease-in-out 0s;
+
+}
+
+.card-div-container .card-div:hover{
+    box-shadow: 10px 5px 5px gray;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------Extra Section ends------------------ */
+
+
+
+/* ----------------------------Deals and Discount section starts------------------------- */
+
+.deals-and-discount-section{
+    margin-top: 10%;
+}
+.deals-and-discount-section .text-div h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.deals-and-discount-section .text-div p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    width: 50%;
+    margin: 1% auto;
+
+}
+
+/* booking card container */
+.booking-card-container{
+    background-image: url('../Images/Group\ 39.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    height: 500px;
+    box-sizing: border-box;
+    display: flex;
+    padding-left: 7%;
+    margin-bottom: 6%;
+}
+.booking-card-container-2{
+    justify-content: flex-end;
+    padding-right: 7%;
+}
+#change-background{
+    background-image: url('../Images/Group\ 40.png');
+}
+.booking-card-container .booking-card{
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    height: 80%;
+    width: 60%;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 3.5%;
+}
+
+.booking-card-container .line-1{
+    display: flex;
+    margin-top:5% ;
+}
+.booking-card-container .line-1 .infos{
+    display: flex;
+    align-items: center;
+}
+
+.booking-card-container .line-2{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+.booking-card-container .line-3{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.booking-card-container .line-4{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 7%;
+    margin-top: 4%;
+}
+.booking-card-container .line-5{
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.package-btn-container{
+    display: flex;
+    justify-content: center;
+}
+.package-btn{
+    min-width: 210px;
+    margin: 2% auto;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border: 0;
+}
+/* ----------------------------Deals and Discount section ends------------------------- */
+
+
+
+
+/* ----------------------------Get lost section starts---------------------------- */
+.get-lost-section{
+    display: flex;
+    gap: 5%;
+    height: 550px;
+    margin-top: 10%;
+}
+.get-lost-section .text-div{
+    width: 43%;
+    height: 424px;
+}
+.get-lost-section .text-div h1{
+    margin-top: 0;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 35px; /* 150% */
+}
+.get-lost-section .text-div .first-para{
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; /* 162.5% */
+}
+.get-lost-section .text-div ul{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 162.5% */
+}
+.get-lost-section .text-div .see-more-btn{
+    color: #FFF;
+    width: 174px;
+    height: 52px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border-radius: 8px;
+    background-color: #FF5400;
+    border: 0;
+    margin-top: 20px;
+}
+
+.get-lost-section .image-div{
+    width: 52%;
+    height: 424px;
+    position: relative;
+    text-align: center;
+}
+.get-lost-section .image-div>img{
+    width: 100%;
+    height: 100%;
+}
+.get-lost-section .image-div> h3{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 150% */
+    width: 276px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+} 
+.get-lost-section .image-div> .vid-pause{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+.get-lost-section .image-div> .vid-right{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    position: absolute;
+    top: 85%;
+    right: 5%;
+    gap: 20%;
+    transform: translate(-50%, -50%);
+}
+.get-lost-section .image-div> .vid-bar hr{
+    color: gray;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+.get-lost-section .image-div> .vid-progress{
+    color: #FFF;
+    position: absolute;
+    background-color: white;
+    border-radius: 10%;
+    border: 0;
+    height: 3px;
+    width: 20%;
+    top: 93.38%;
+    left: 14.8%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+.get-lost-section .image-div> .vid-progress hr{
+    display: none;
+}
+
+/* ----------------------------Get Lost section ends---------------------------- */
+
+/* ----------------------------Newslatter section starts---------------------------- */
+.newslatter-section{
+    height: 422px;
+    display: flex;
+    gap: 5%;
+    margin-bottom:10% ;
+}
+.newslatter-section .text-div{
+    width: 40%;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.newslatter-section .text-div h2{
+    color: #131318;
+    margin-top: 0;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+}
+.newslatter-section .text-div p{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 5%;
+    line-height: 26px; /* 162.5% */
+}
+.newslatter-section .text-div input{
+    width: 100%;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    box-sizing: border-box;
+    padding-left: 5%;
+    margin-top: 5%;
+}
+.newslatter-section .text-div button{
+    width: 100%;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    margin-top: 8%;
+}
+
+.newslatter-section .image-div{
+    width: 55%;
+    position: relative;
+}
+.newslatter-section .image-div img{
+    width: 100%;
+    height: 100%;
+}
+.newslatter-section .tocken{
+    border-radius: 16px;
+    width: 50%;
+    background: #FF5400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    height: 35%;
+    transform: rotate(-19.628deg);
+    position: absolute;
+    bottom: 13%;
+    right: 3.5%;
+}
+.newslatter-section .tocken h6{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    
+}
+.newslatter-section .tocken h1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------------Newslatter section ends---------------------------- */
+footer{
+    background-color:  rgba(19, 19, 24, 0.05);
+}
+.footer{
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom:10% ;
+    padding-top: 10%;
+}
+.footer-section img{
+    cursor: pointer;
+}
+.footer-section p{
+    width: 90%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+.footer-hr{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 85%;
+    height: 2px;
+    background: rgba(19, 19, 24, 0.10);
+    border: 0;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.social img:hover{
+    transform: scale(1.4);
+}
+button:hover{
+    transform: scale(1.1);
+}
